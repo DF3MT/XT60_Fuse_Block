@@ -1,0 +1,130 @@
+{
+  "uuid": "304d03fed58ce5cd18724b3b28a434fd",
+  "path": "Offline/FuseBlock",
+  "name": "FuseBlock",
+  "content": "",
+  "created_at": "2024-11-07 10:57:34",
+  "updated_at": "2024-11-25 15:50:04",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b2ffb4943564f42d25aa83231c4781b9",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "72d1f36e0eb3437d900f444af964921f": 4,
+        "bb009484ef804a24ac5d18c54b249586": 2,
+        "5cbe824183374fac8e4c1ae848199ce3": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "LED1,LED2",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "680R",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "XT60",
+          4,
+          "CONN-TH_XT60",
+          "U1,U2,U3,U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C98733",
+            "Manufacturer": "AMASS(艾迈斯)",
+            "Manufacturer Part": "XT60",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XT60",
+            "puuid": "05accc143e0c48448ed64424c0bb6784",
+            "uuid": "72d1f36e0eb3437d900f444af964921f"
+          }
+        ]
+      ],
+      "updateTime": 1731846506,
+      "createTime": 1730973454,
+      "histories": [],
+      "created_at": "2024-11-07 10:57:34",
+      "updated_at": "2024-11-17 13:28:26"
+    },
+    {
+      "uuid": "3c1d002bf7e2e143c2a1e9be64afe5f1",
+      "puuid": "304d03fed58ce5cd18724b3b28a434fd",
+      "title": "PCB_FuseBlock",
+      "filename": "PCB_FuseBlock.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "05accc143e0c48448ed64424c0bb6784": 4
+      },
+      "BOM": [],
+      "updateTime": 1730992033,
+      "createTime": 1730974298,
+      "histories": [],
+      "created_at": "2024-11-07 11:11:38",
+      "updated_at": "2024-11-07 16:07:13"
+    },
+    {
+      "uuid": "ff41aaac4adc833e072e2c87ccae0ae4",
+      "puuid": "304d03fed58ce5cd18724b3b28a434fd",
+      "title": "PCB_FuseBlock_2",
+      "filename": "PCB_FuseBlock_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "05accc143e0c48448ed64424c0bb6784": 2
+      },
+      "BOM": [],
+      "updateTime": 1732546204,
+      "createTime": 1731847271,
+      "histories": [],
+      "created_at": "2024-11-17 13:41:11",
+      "updated_at": "2024-11-25 15:50:04"
+    }
+  ],
+  "sort": [],
+  "title": "FuseBlock",
+  "foldername": "FuseBlock",
+  "schfilename": "FuseBlock.json",
+  "schfilemtime": 1731846506600
+}
